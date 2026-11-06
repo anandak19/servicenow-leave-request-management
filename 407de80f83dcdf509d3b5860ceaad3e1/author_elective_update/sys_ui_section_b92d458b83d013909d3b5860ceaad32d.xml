@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="New Section" section_id="b92d458b83d013909d3b5860ceaad32d" sys_domain="global" table="x_2129892_leave_0_leave_requests" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>leave_balance_at_request</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-06 08:58:02</sys_created_on>
+            <sys_id>1a2d458b83d013909d3b5860ceaad3db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_2129892_leave_0_leave_requests" sys_domain="global" view="Default view">b92d458b83d013909d3b5860ceaad32d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-06 08:58:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-06 08:58:02</sys_created_on>
+            <sys_id>962d458b83d013909d3b5860ceaad3dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_2129892_leave_0_leave_requests" sys_domain="global" view="Default view">b92d458b83d013909d3b5860ceaad32d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-06 08:58:02</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>New Section</caption>
+            <header>false</header>
+            <name>x_2129892_leave_0_leave_requests</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-06 08:58:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b92d458b83d013909d3b5860ceaad32d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_2129892_leave_0_leave_requests</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Leave Request Management" source="x_2129892_leave_0">407de80f83dcdf509d3b5860ceaad3e1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Leave Request Management">407de80f83dcdf509d3b5860ceaad3e1</sys_scope>
+            <sys_update_name>sys_ui_section_b92d458b83d013909d3b5860ceaad32d</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-06 08:58:00</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Leave Request Management">407de80f83dcdf509d3b5860ceaad3e1</application>
+        <file_path/>
+        <instance_id>7c0ad73b3b2a4314a80ce0bf55e45afe</instance_id>
+        <instance_name>dev445039</instance_name>
+        <name>sys_ui_section_b92d458b83d013909d3b5860ceaad32d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="New Section" section_id="b92d458b83d013909d3b5860ceaad32d" sys_domain="global" table="x_2129892_leave_0_leave_requests" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>leave_balance_at_request</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-06 08:58:02</sys_created_on><sys_id>1a2d458b83d013909d3b5860ceaad3db</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_2129892_leave_0_leave_requests" sys_domain="global" view="Default view">b92d458b83d013909d3b5860ceaad32d</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-06 08:58:02</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-06 08:58:02</sys_created_on><sys_id>962d458b83d013909d3b5860ceaad3dc</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_2129892_leave_0_leave_requests" sys_domain="global" view="Default view">b92d458b83d013909d3b5860ceaad32d</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-06 08:58:02</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>New Section</caption><header>false</header><name>x_2129892_leave_0_leave_requests</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-06 08:58:00</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b92d458b83d013909d3b5860ceaad32d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_2129892_leave_0_leave_requests</sys_name><sys_overrides/><sys_package display_value="Leave Request Management" source="x_2129892_leave_0">407de80f83dcdf509d3b5860ceaad3e1</sys_package><sys_policy/><sys_scope display_value="Leave Request Management">407de80f83dcdf509d3b5860ceaad3e1</sys_scope><sys_update_name>sys_ui_section_b92d458b83d013909d3b5860ceaad32d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-06 08:58:00</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-723759849</payload_hash>
+        <record_name>Leave Requests</record_name>
+        <reverted_from/>
+        <source>b48ee88f83dcdf509d3b5860ceaad3e4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-06 08:58:02</sys_created_on>
+        <sys_id>de2d458b83d013909d3b5860ceaad3df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a1b0144bd20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-06 08:58:02</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>922d458b16d01390851baafcca1237df</update_guid>
+        <update_guid_history>922d458b16d01390851baafcca1237df:-723759849</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-06 09:00:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>1e5680487bcc4a40a5bd802ab74987a4</sys_id>
+        <sys_metadata>b92d458b83d013909d3b5860ceaad32d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Section</sys_name>
+        <sys_package display_value="Leave Request Management" source="x_2129892_leave_0">407de80f83dcdf509d3b5860ceaad3e1</sys_package>
+        <sys_parent display_value="Leave Requests">5b817007831013909d3b5860ceaad38f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Leave Request Management">407de80f83dcdf509d3b5860ceaad3e1</sys_scope>
+        <sys_scope_delete display_value="">03b743f6d06f438b8056490c1dfa6099</sys_scope_delete>
+        <sys_update_name>sys_ui_section_b92d458b83d013909d3b5860ceaad32d</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_b92d458b83d013909d3b5860ceaad32d">de2d458b83d013909d3b5860ceaad3df</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-06 09:00:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

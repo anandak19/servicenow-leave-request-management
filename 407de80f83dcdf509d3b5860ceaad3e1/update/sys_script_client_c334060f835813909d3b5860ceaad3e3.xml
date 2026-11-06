@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>On type changes to sick check days. if greater than 2 set document attachment mandatory</description>
+        <field>leave_type</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Medical certificate mandatory:type</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+
+	if (isLoading) {
+		return;
+	}
+
+	var type = g_form.getValue('leave_type');
+	var days = parseInt(g_form.getValue('number_of_leave_days'), 10);
+
+	if (type === 'sick' && days > 2) {
+		g_form.setMandatory('document_attachment', true);
+		g_form.showFieldMsg('document_attachment', 'Upload medical certificate here', 'info');
+
+	} else {
+		g_form.setMandatory('document_attachment', false);
+		g_form.hideFieldMsg('document_attachment', false);
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-06 13:13:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c334060f835813909d3b5860ceaad3e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Medical certificate mandatory:type</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Leave Request Management" source="x_2129892_leave_0">407de80f83dcdf509d3b5860ceaad3e1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Leave Request Management">407de80f83dcdf509d3b5860ceaad3e1</sys_scope>
+        <sys_update_name>sys_script_client_c334060f835813909d3b5860ceaad3e3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-06 13:13:21</sys_updated_on>
+        <table>x_2129892_leave_0_leave_requests</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
