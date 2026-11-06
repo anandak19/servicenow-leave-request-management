@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_2129892_leave_0.lrm.hr" name="x_2129892_leave_0.lrm.hr">8c7d2c0f83dcdf509d3b5860ceaad33a</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-06 06:39:26</sys_created_on>
+        <sys_id>087d2c0f83dcdf509d3b5860ceaad33e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>8c7d2c0f83dcdf509d3b5860ceaad33a</sys_name>
+        <sys_package display_value="Leave Request Management" source="x_2129892_leave_0">407de80f83dcdf509d3b5860ceaad3e1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Leave Request Management">407de80f83dcdf509d3b5860ceaad3e1</sys_scope>
+        <sys_update_name>sys_embedded_help_role_087d2c0f83dcdf509d3b5860ceaad33e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-06 06:39:26</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
